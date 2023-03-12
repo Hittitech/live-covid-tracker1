@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+.main .card{
+    display: flex;
+    border: 1px solid rgb(247, 244, 244);
+    height: 80vh;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 40px 50px 20px 90px;
+
+
+    
+}
+.main h1{
+    padding-top: 10px;
+}
+.main .card-inner{
+    width: 300px;
+    height: 250px;
+    margin: 40px 70px 10px 70px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+/* .main .card-inner:hover{
+    width: 320px;
+} */
+.main .card-inner p{
+    text-align: center;
+    margin: 40px 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.main .card-inner p span{
+    font-size: 1.9rem;
+    margin-left: 5px;
+    letter-spacing: 4px;
+
+
+}
+.main .card-inner p span:hover{
+    font-size: 2.5rem;
+}
+.main .a{
+    background-color: rgb(94, 153, 225);
+}
+.main .b{
+    background-color: rgb(91, 214, 118);
+}
+.main .c{
+    background-color: rgb(211, 223, 38);
+}
+.main .d{
+    background-color: rgb(255, 125, 38);
+}
+.main .e{
+    background-color: rgb(86, 233, 216);
+}
+.main .f{
+    background-color: rgb(248, 209, 102);
+}
+
+
+@media (max-width:400px){
+    .main .card {
+        height: 222vh;
+        margin: 40px -5px -2px 4px;
+    }
+    .main {
+        height: 244vh;
+    }
+}
